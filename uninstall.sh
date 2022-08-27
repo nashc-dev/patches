@@ -1,6 +1,6 @@
 #!/bin/bash
 
-C=$(pwd)
+C=$ANDROID_BUILD_TOP
 D="frameworks/base frameworks/av packages/modules/Bluetooth"
 
 clear_patches() { cd ${C}/${1}; git checkout -- . && git clean -df; cd ${C}; }

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-C=$(pwd)
+C=$ANDROID_BUILD_TOP
 S="private_patches"
 D="frameworks/base frameworks/av packages/modules/Bluetooth"
 
